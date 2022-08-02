@@ -29,3 +29,5 @@ source.complete = function(self, request, callback)
   end
   callback(self.items)
 end
+
+return source
