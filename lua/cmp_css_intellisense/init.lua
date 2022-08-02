@@ -9,7 +9,7 @@
 -- })
 local source = {}
 
-local items = require("cmp-css-intellisense/items")
+local items = require("cmp_css_intellisense/items")
 
 source.new = function()
   return setmetatable({}, { __index = source })
